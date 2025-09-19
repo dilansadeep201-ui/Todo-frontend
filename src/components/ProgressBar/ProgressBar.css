@@ -1,0 +1,23 @@
+.progressbar-container {
+  position: relative;
+  height: 20px;
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.progressbar-container .progressbar {
+  position: absolute;
+  height: 100%;
+  background-color: greenyellow;
+  transition: width 0.3s ease;
+  z-index: 1;
+}
+
+.progressbar-container .prentage-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

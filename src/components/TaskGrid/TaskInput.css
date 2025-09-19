@@ -1,0 +1,34 @@
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.input-container input,
+.input-container button {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-container input {
+  flex-grow: 4;
+}
+.input-container button {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.cancel-input-button {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.input-warning-container {
+  color: rgb(255, 0, 0);
+  text-align: center;
+
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.2);
+}
